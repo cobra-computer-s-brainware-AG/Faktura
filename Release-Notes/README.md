@@ -1,5 +1,17 @@
 # Release Notes | Faktura
 
+## 6.0.0.8
+
+* ### Bugfixes und Diverse
+
+  Die Funktion `Fakturieren` wurde in `Serienrechnung` umbenannt.
+
+  Der Block für die Referenznummer wurde überarbeitet.
+
+  Das Feld `Nicht verrechnen` für die Datenaufbereitung wurde in die Filterfunktion integriert.
+
+  Beim CAMT Importer wurde ein neues Feld `EndToEndId` für CH-DD ergänzt.
+
 ## 6.0.0.7
 
 * ### NEU: Einzelrechnung
