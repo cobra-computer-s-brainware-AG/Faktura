@@ -90,6 +90,23 @@
 
   Die Faktura Fenster wurden Optisch überarbeitet. 
 
+
+## 6.0.0.0
+
+* NEU: Neue Platzhalter
+  Neu sind die Platzhalter `CurUserName` und `CurUserShortName` verfügbar.
+
+* NEU: Cobra-Feldformate
+  Neu werden die Cobra-Feldformate unterstützt.
+
+* ### Bugfixes und Diverse
+
+  Ablösung von Cobra CRM PRO 2020 durch eine neue Version.
+ 
+  Die Validierung wurde optimiert.
+
+  Alle Fenster wurden auf WPF umgestellt.
+
   
 
 
