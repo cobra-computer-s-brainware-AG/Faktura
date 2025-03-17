@@ -1,5 +1,22 @@
 # Release Notes | Faktura
 
+## 6.0.0.9
+
+* ### NEU: History
+  Für den RaiseNow- und Camt-Import gibt es nun eine Historie-Protokollierung.
+
+* ### NEU: Weitere Kontakt Felder
+  In den Einstellungen unter Kontakteintrag können weitere Kontaktfelder befüllt werden. 
+
+* ### Bugfixes und Diverse
+
+  Der Fehler bei den Folgebefehlen der Schaltflächen wurde behoben. (1.0.0.7)
+
+  Die Anzahl der CAMT-Dateien wurde optimiert. 
+
+  Div. Performance Optimierungen.
+  
+
 ## 6.0.0.8
 
 * ### Bugfixes und Diverse
