@@ -3,6 +3,11 @@
 > [!NOTE]
 > Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/raw/refs/heads/master/Current/Cobra.Faktura.Installer.6009.zip) heruntergeladen werden.
 
+## 6.0.1.0
+
+* ### NEU: Nur noch Sammelmappe im Ausgabeort
+  Wird das Dokumentenfeld konfiguriert, wird nur noch die Sammelmappe am Ausgabeort abgelegt. Alle Rechnungen werden im DMS gespeichert
+
 ## 6.0.0.9
 
 * ### NEU: History
