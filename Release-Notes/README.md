@@ -96,6 +96,9 @@
 
 ## 6.0.0.0
 
+* ### NEU: RaiseNow API
+  Neu kann RaiseNow via. API Importiert werden. 
+
 * NEU: Neue Platzhalter
   Neu sind die Platzhalter `CurUserName` und `CurUserShortName` verfügbar.
 
