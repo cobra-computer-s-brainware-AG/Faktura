@@ -96,13 +96,13 @@
 
 ## 6.0.0.0
 
-* ### NEU: RaiseNow API
+* ### NEU: RaiseNow API  
   Neu kann RaiseNow via. API Importiert werden. 
 
-* NEU: Neue Platzhalter
+* NEU: Neue Platzhalter  
   Neu sind die Platzhalter `CurUserName` und `CurUserShortName` verfügbar.
 
-* NEU: Cobra-Feldformate
+* NEU: Cobra-Feldformate  
   Neu werden die Cobra-Feldformate unterstützt.
 
 * ### Bugfixes und Diverse
