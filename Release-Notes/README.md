@@ -15,6 +15,8 @@
   Die Anzahl der CAMT-Dateien wurde optimiert. 
 
   Div. Performance Optimierungen.
+
+  Die Installer für cobra Faktura wurden signiert.
   
 
 ## 6.0.0.8
