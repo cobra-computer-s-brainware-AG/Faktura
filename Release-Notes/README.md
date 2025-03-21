@@ -3,7 +3,7 @@
 > [!NOTE]
 > Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/raw/refs/heads/master/Current/Cobra.Faktura.Installer.60092.zip) heruntergeladen werden. (6.0.0.92)
 
-## Preview 
+## Preview 6.0.1.0
 
 * ### NEU: Beziehungsfeldern Referenznummer
   Neu stehen jetzt auch Felder aus Beziehungsfeldern für die Konfiguration der Referenznummer zur Verfügung. (6.0.0.92)
@@ -16,6 +16,8 @@
   Die erformance wurde bei der Generierung von Rechnungen optimiert. (6.0.0.92)
   
   Der Konvertierungsfehler im Kunden-Plugin wurde behoben. (6.0.0.91)
+
+  Wird das Dokumentenfeld in der Faktura-Tabelle konfiguriert, wird nun nur noch die Sammelmappe im Ausgabeort gespeichert. (6.0.0.91)
   
 ## 6.0.0.9
 
