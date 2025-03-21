@@ -1,8 +1,22 @@
 # Release Notes | Faktura
 
 > [!NOTE]
-> Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/raw/refs/heads/master/Current/Cobra.Faktura.Installer.60091.zip) heruntergeladen werden. (6.0.0.91)
- 
+> Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/raw/refs/heads/master/Current/Cobra.Faktura.Installer.60092.zip) heruntergeladen werden. (6.0.0.92)
+
+## Preview 
+
+* ### NEU: Beziehungsfeldern Referenznummer
+  Neu stehen jetzt auch Felder aus Beziehungsfeldern für die Konfiguration der Referenznummer zur Verfügung. (6.0.0.92)
+
+* ### Bugfixes und Diverse
+  Der Lizenzierungsfehler bei nicht vorhandenen Produkten wurde behoben. (6.0.0.92)
+
+  Der Splashscreen mit Zeitanzeige wurde verbessert. (6.0.0.92)
+
+  Die erformance wurde bei der Generierung von Rechnungen optimiert. (6.0.0.92)
+  
+  Der Konvertierungsfehler im Kunden-Plugin wurde behoben. (6.0.0.91)
+  
 ## 6.0.0.9
 
 * ### NEU: History
