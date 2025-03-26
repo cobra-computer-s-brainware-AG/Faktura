@@ -1,9 +1,12 @@
 # Release Notes | Faktura
 
 > [!NOTE]
-> Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/raw/refs/heads/master/Current/Cobra.Faktura.Installer.60092.zip) heruntergeladen werden. (6.0.0.92)
+> Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/raw/refs/heads/master/Current/Cobra.Faktura.Installer.60093.zip) heruntergeladen werden. (6.0.0.93)
 
 ## Preview 6.0.1.0
+
+* ### NEU: RaiseNow Custom Parameter
+  Neu können RaiseNow-`Custom Parameter` für Adressfelder konfiguriert werden. Zudem wurde das Feld `Geburtsdatum` ergänzt. (6.0.0.93)
 
 * ### NEU: Beziehungsfeldern Referenznummer
   Neu stehen jetzt auch Felder aus Beziehungsfeldern für die Konfiguration der Referenznummer zur Verfügung. (6.0.0.92)
