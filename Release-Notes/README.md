@@ -8,6 +8,27 @@
 * ### NEU: Nur noch Sammelmappe im Ausgabeort
   Wird das Dokumentenfeld konfiguriert, wird nur noch die Sammelmappe am Ausgabeort abgelegt. Alle Rechnungen werden im DMS gespeichert
 
+* ### NEU: Schaltflächenbefehl mit vordefiniertem Format
+  Neu gibt es in den Schaltflächenbefehlen der Sammelrechung mit vordefiniertem Format verfügbar.
+
+* ### NEU: Geburtsdatum, Gebühr, Netto und CustomParameter
+  Neu lassen sich das Geburtsdatum, Gebühr, Netto sowie CustomParameter in RaiseNow konfigurieren.
+
+* ### NEU: RaiseNow Adressen Recherchieren
+  Neu können angelegte RaiseNow-Adressen recherchiert werden.
+
+* ### Bugfixes und Diverse
+  Der RaiseNow Bug wurde behoben.
+
+  Der Lizensierung Bug wurde behoben. 
+
+  Performmance Optimierung.
+
+  Die ProgressBar wurde optimiert.
+
+  Die PDF-Bereinigung lässt sich in der Faktura.ini über CleanOutput = False unterbinden
+
+
 ## 6.0.0.9
 
 * ### NEU: History
