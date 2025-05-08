@@ -9,7 +9,7 @@
   Wird das Dokumentenfeld konfiguriert, wird nur noch die Sammelmappe am Ausgabeort abgelegt. Alle Rechnungen werden im DMS gespeichert
 
 * ### NEU: Schaltflächenbefehl mit vordefiniertem Format
-  Neu gibt es in den Schaltflächenbefehlen der Sammelrechung mit vordefiniertem Format verfügbar.
+  Neu gibt es in den Schaltflächenbefehlen `Sammelrechung mit vordefiniertem Format`.
 
 * ### NEU: Geburtsdatum, Gebühr, Netto und CustomParameter
   Neu lassen sich das Geburtsdatum, Gebühr, Netto sowie CustomParameter in RaiseNow konfigurieren.
