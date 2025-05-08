@@ -23,7 +23,9 @@
 * ### Bugfixes und Diverse
   Der RaiseNow Bug wurde behoben.
 
-  Der Lizensierung Bug wurde behoben. 
+  Der Lizensierung Bug wurde behoben.
+
+  Der Referenznummer Bug mit Adressfeldern wurde behoben. 
 
   Performmance Optimierung.
 
