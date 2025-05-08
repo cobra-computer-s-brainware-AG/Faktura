@@ -17,6 +17,9 @@
 * ### NEU: RaiseNow Adressen Recherchieren
   Neu können angelegte RaiseNow-Adressen recherchiert werden.
 
+* ### NEU: RaiseNow Standard Werte
+  Neu können für (Insert Only) Standardwerte für die Adresse konfiguriert werden.
+
 * ### Bugfixes und Diverse
   Der RaiseNow Bug wurde behoben.
 
