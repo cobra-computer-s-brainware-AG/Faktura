@@ -5,8 +5,11 @@
 
 ## 6.0.1.0
 
+* ### NEU: Neuer Client-Setup für cobra 25.2 oder neuer
+  Für cobra 25.2 oder neuer verwenden Sie das neue `Cobra.Faktura.ClientSetup.64.v2.msi`.
+
 * ### NEU: Nur noch Sammelmappe im Ausgabeort
-  Wird das Dokumentenfeld konfiguriert, wird nur noch die Sammelmappe am Ausgabeort abgelegt. Alle Rechnungen werden im DMS gespeichert
+  Wird das Dokumentenfeld konfiguriert, wird nur noch die Sammelmappe am Ausgabeort abgelegt. Alle Rechnungen werden im DMS gespeichert.
 
 * ### NEU: Schaltflächenbefehl mit vordefiniertem Format
   Neu gibt es in den Schaltflächenbefehlen `Sammelrechung mit vordefiniertem Format`.
