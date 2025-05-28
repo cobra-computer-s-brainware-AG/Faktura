@@ -5,8 +5,11 @@
 
 ## 6.0.1.0
 
+* ### NEU: Twingle API
+  Neu können Spenden via. Twingle API Importiert werden. 
+
 * ### NEU: Neuer Client-Setup für cobra 25.2 oder neuer
-  Für cobra 25.2 oder neuer verwenden Sie das neue `Cobra.Faktura.ClientSetup.64.v2.msi`.
+  Für cobra 25.2 oder neuer verwenden Sie das neue `Cobra.Faktura.ClientSetup.64.v2.msi`. Zudem wurde das Installer Bild überarbeitet. 
 
 * ### NEU: Nur noch Sammelmappe im Ausgabeort
   Wird das Dokumentenfeld konfiguriert, wird nur noch die Sammelmappe am Ausgabeort abgelegt. Alle Rechnungen werden im DMS gespeichert.
@@ -20,8 +23,8 @@
 * ### NEU: RaiseNow Adressen Recherchieren
   Neu können angelegte RaiseNow-Adressen recherchiert werden.
 
-* ### NEU: RaiseNow Standard Werte
-  Neu können für (Insert Only) Standardwerte für die Adresse konfiguriert werden.
+* ### NEU: RaiseNow Standard Werte   
+  Neu können für (Insert Only) Standardwerte für die Adresse konfiguriert werden. Zudem stehen 
 
 * ### Bugfixes und Diverse
   Der RaiseNow Bug wurde behoben.
@@ -36,6 +39,7 @@
 
   Die PDF-Bereinigung lässt sich in der Faktura.ini über CleanOutput = False unterbinden
 
+  Kunden Plugin wurde in BESR Plugin umbenannt. 
 
 ## 6.0.0.9
 
@@ -54,7 +58,8 @@
   Div. Performance Optimierungen.
 
   Die Installer für cobra Faktura wurden signiert.
-  
+
+  CAMT053 Adresslogik wurde angepasst. 
 
 ## 6.0.0.8
 
