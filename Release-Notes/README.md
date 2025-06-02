@@ -5,8 +5,11 @@
 
 ## 6.0.1.0
 
-* ### NEU: Twingle API
-  Neu können Spenden via. Twingle API Konfiguriert und Importiert werden. 
+* ### NEU: Twingle API (Fundraising)
+  Neu können Spenden via. Twingle API Konfiguriert und Importiert werden.
+
+* ### NEU: Excel und CSV Import (Fundraising)
+  Neu können Spenden via. Excel und CSV Konfiguriert und Importiert werden. 
 
 * ### NEU: Neuer Client-Setup für cobra 25.2 oder neuer
   Für cobra 25.2 oder neuer verwenden Sie das neue `Cobra.Faktura.ClientSetup.64.v2.msi`. Zudem wurde das Installer Bild überarbeitet. 
