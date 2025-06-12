@@ -1,26 +1,50 @@
 # Release Notes | Faktura
 
 > [!NOTE]
-> Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/raw/refs/heads/master/Current/Cobra.Faktura.Installer.60093.zip) heruntergeladen werden. (6.0.0.93)
+> Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/raw/refs/heads/master/Current/Cobra.Faktura.Installer.6.0.1.107.zip) heruntergeladen werden.
+ 
 
-## Preview 6.0.1.0
+## 6.0.1.107
 
-* ### NEU: RaiseNow Custom Parameter
-  Neu können RaiseNow-`Custom Parameter` für Adressfelder konfiguriert werden. Zudem wurde das Feld `Geburtsdatum` ergänzt. (6.0.0.93)
+* ### NEU: Twingle API (Fundraising)
+  Neu können Spenden via. Twingle API Konfiguriert und Importiert werden.
 
-* ### NEU: Beziehungsfeldern Referenznummer
-  Neu stehen jetzt auch Felder aus Beziehungsfeldern für die Konfiguration der Referenznummer zur Verfügung. (6.0.0.92)
+* ### NEU: Excel und CSV Import (Fundraising)
+  Neu können Spenden via. Excel und CSV Konfiguriert und Importiert werden. 
+
+* ### NEU: Neuer Client-Setup für cobra 25.2 oder neuer
+  Für cobra 25.2 oder neuer verwenden Sie das neue `Cobra.Faktura.ClientSetup.64.v2.msi`. Zudem wurde das Installer Bild überarbeitet. 
+
+* ### NEU: Nur noch Sammelmappe im Ausgabeort
+  Wird das Dokumentenfeld konfiguriert, wird nur noch die Sammelmappe am Ausgabeort abgelegt. Alle Rechnungen werden im DMS gespeichert.
+
+* ### NEU: Schaltflächenbefehl mit vordefiniertem Format
+  Neu gibt es in den Schaltflächenbefehlen `Sammelrechung mit vordefiniertem Format`.
+
+* ### NEU: Geburtsdatum, Gebühr, Netto, Source_url und CustomParameter
+  Neu lassen sich das Geburtsdatum, Gebühr, Netto, Source_url sowie CustomParameter in RaiseNow konfigurieren.
+
+* ### NEU: RaiseNow Adressen Recherchieren
+  Neu können angelegte RaiseNow-Adressen recherchiert werden. Ausserdem kann ausgewählt werden, dass Dubletten nicht überschrieben werden.
+
+* ### NEU: RaiseNow Standard Werte   
+  Neu können für (Insert Only) Standardwerte für die Adresse konfiguriert werden. Zudem stehen 
 
 * ### Bugfixes und Diverse
-  Der Lizenzierungsfehler bei nicht vorhandenen Produkten wurde behoben. (6.0.0.92)
+  Der RaiseNow Bug wurde behoben.
 
-  Der Splashscreen mit Zeitanzeige wurde verbessert. (6.0.0.92)
+  Der Lizensierung Bug wurde behoben.
 
-  Die erformance wurde bei der Generierung von Rechnungen optimiert. (6.0.0.92)
-  
-  Der Konvertierungsfehler im Kunden-Plugin wurde behoben. (6.0.0.91)
+  Der Referenznummer Bug mit Adressfeldern wurde behoben. 
 
-  Wird das Dokumentenfeld in der Faktura-Tabelle konfiguriert, wird nun nur noch die Sammelmappe im Ausgabeort gespeichert. (6.0.0.91)
+  Performmance Optimierung.
+
+  Die ProgressBar wurde optimiert.
+
+  Die PDF-Bereinigung lässt sich in der Faktura.ini über CleanOutput = False unterbinden
+
+  Kunden Plugin wurde in BESR Plugin umbenannt. 
+ 
   
 ## 6.0.0.9
 
@@ -39,7 +63,8 @@
   Div. Performance Optimierungen.
 
   Die Installer für cobra Faktura wurden signiert.
-  
+
+  CAMT053 Adresslogik wurde angepasst. 
 
 ## 6.0.0.8
 
