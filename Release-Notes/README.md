@@ -1,9 +1,9 @@
 # Release Notes | Faktura
 
 > [!NOTE]
-> Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/raw/refs/heads/master/Current/Cobra.Faktura.Installer.6009.zip) heruntergeladen werden.
+> Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/raw/refs/heads/master/Current/Cobra.Faktura.Installer.6.0.1.107.zip) heruntergeladen werden.
 
-## 6.0.1.0
+## 6.0.1.107
 
 * ### NEU: Twingle API (Fundraising)
   Neu können Spenden via. Twingle API Konfiguriert und Importiert werden.
