@@ -2,6 +2,7 @@
 
 > [!NOTE]
 > Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/raw/refs/heads/master/Current/Cobra.Faktura.Installer.6.0.1.107.zip) heruntergeladen werden.
+ 
 
 ## 6.0.1.107
 
@@ -43,7 +44,8 @@
   Die PDF-Bereinigung lässt sich in der Faktura.ini über CleanOutput = False unterbinden
 
   Kunden Plugin wurde in BESR Plugin umbenannt. 
-
+ 
+  
 ## 6.0.0.9
 
 * ### NEU: History
