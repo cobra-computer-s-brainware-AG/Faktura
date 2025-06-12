@@ -20,11 +20,11 @@
 * ### NEU: Schaltflächenbefehl mit vordefiniertem Format
   Neu gibt es in den Schaltflächenbefehlen `Sammelrechung mit vordefiniertem Format`.
 
-* ### NEU: Geburtsdatum, Gebühr, Netto und CustomParameter
-  Neu lassen sich das Geburtsdatum, Gebühr, Netto sowie CustomParameter in RaiseNow konfigurieren.
+* ### NEU: Geburtsdatum, Gebühr, Netto, Source_url und CustomParameter
+  Neu lassen sich das Geburtsdatum, Gebühr, Netto, Source_url sowie CustomParameter in RaiseNow konfigurieren.
 
 * ### NEU: RaiseNow Adressen Recherchieren
-  Neu können angelegte RaiseNow-Adressen recherchiert werden.
+  Neu können angelegte RaiseNow-Adressen recherchiert werden. Ausserdem kann ausgewählt werden, dass Dubletten nicht überschrieben werden.
 
 * ### NEU: RaiseNow Standard Werte   
   Neu können für (Insert Only) Standardwerte für die Adresse konfiguriert werden. Zudem stehen 
