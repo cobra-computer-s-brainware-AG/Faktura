@@ -20,6 +20,7 @@
 ## 6.0.2.102
 
 * ### NEU: eBill Integration
+  Neu unterstützt das Faktura den Versand von Rechnungen als eBill sowie von Spendenaufrufen als eBill Donation.
 
 * ### Bugfixes und Diverse
   Camt.054: neue Logik für Dublettenerkennung für Camt.053
