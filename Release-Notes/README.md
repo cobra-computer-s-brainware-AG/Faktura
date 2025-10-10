@@ -2,8 +2,32 @@
 
 > [!NOTE]
 > Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/raw/refs/heads/master/Current/Cobra.Faktura.Installer.6.0.1.107.zip) heruntergeladen werden.
- 
 
+## 6.0.2.107
+
+* ### RaiseNow
+  Die Konfiguration für RasieNow wurden komplet überaribetet und bieten neue
+
+* ### Fundraising DE
+  RaiseNow, Twingle und Excel sind Standalone verfügbar
+
+* ### Bugfixes und Diverse
+
+  eBill Donation wird mit dem heutigen DueDate gesetzt
+
+  SMG wird nicht mehr Supportet  
+
+## 6.0.2.102
+
+* ### NEU: eBill Integration
+
+* ### Bugfixes und Diverse
+  Camt.054: neue Logik für Dublettenerkennung für Camt.053
+  
+  Camt.054: Neu wird die strukturierte Message importiert
+  
+  Camt.053 Plugin: Adressgenerierung nur für Positive Beträge
+  
 ## 6.0.1.107
 
 * ### NEU: Twingle API (Fundraising)
