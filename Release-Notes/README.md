@@ -6,7 +6,7 @@
 ## 6.0.2.107
 
 * ### RaiseNow
-  Die Konfiguration für RasieNow wurden komplet überaribetet und bieten neue
+  Die Konfiguration für RaiseNow wurde vollständig überarbeitet und bietet  neue, komplexe Möglichkeiten. 
 
 * ### Fundraising DE
   RaiseNow, Twingle und Excel sind Standalone verfügbar
