@@ -3,7 +3,48 @@
 > [!NOTE]
 > Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/raw/refs/heads/master/Current/Cobra.Faktura.Installer.6.0.1.107.zip) heruntergeladen werden.
 
-## 6.0.2.107
+## 6.3.0.0
+
+* ### NEU: Faktura ist auch mit cobra Classic 2026 R1 kompatibel.
+
+
+## 6.2.0.122
+
+* ### NEU: Faktura ist auch mit cobra 2025 R4 kompatibel.
+  Bitte führen Sie auf jeder Arbeitsstation das Update ClientSetup.64.25R4.msi aus, um den Client zu aktualisieren.
+
+* ### NEU: CAMT-Import unterstützt nur noch ISO-20022-Standard Version 2019
+  Der CAMT-Import unterstützt nur noch ISO-20022-Standard Version 2019, da dies der vorgegebene Standard ab November 2026 ist.
+
+* ### NEU: Buchungstext
+  In den CAMT.054-Einstellungen kann der Buchungstext konfiguriert werden
+ 
+* ### Bugfixes und Diverse
+  
+  .NET Framework Version von 4.7.2 auf 4.8 angehoben
+
+  Es können nur noch CAMT.054 mit Referenznummer importiert werden. 
+  
+## 6.2.0.115
+
+* ### Bugfixes und Diverse
+
+  Der Endlosschleifen Fehler bei eBill wurde behoben
+
+  RaiseNow Excel wird nicht mehr Supportet, verwenden Sie hierfür den Faktura Excel/Csv Import. 
+
+  Die Kundenplugin wurden überarbeitet und werden neu mit MEF geladen
+
+  Die Storno und Datenaufbereitung Funktion wurde entfernt. 
+
+  Der IBAN Fehler bei eBill wurde behoben 
+
+  Einzeldruck wurde aus der Sammelrechnung entfernt, bitte verwenden Sie hierfür Einzelrechnung 
+  
+  Twingle und Excel Import wurden optimiert
+  
+
+## 6.2.0.107
 
 * ### RaiseNow
   Die Konfiguration für RaiseNow wurde vollständig überarbeitet und bietet  neue, komplexe Möglichkeiten. 
