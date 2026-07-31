@@ -1,16 +1,86 @@
 # Release Notes | Faktura
 
 > [!NOTE]
-> Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/raw/refs/heads/master/Current/Cobra.Faktura.Installer.6.0.1.107.zip) heruntergeladen werden.
- 
+> Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/raw/refs/heads/master/Current/Cobra.Faktura.Installer.6302.zip) heruntergeladen werden.
 
+## 6.3.0.2
+
+* ### NEU: Faktura ist auch mit cobra Classic 2026 R1 kompatibel.
+
+* ### Bugfixes und Diverse
+
+  Der RaiseNow Customparameter und Transaction Gebühr Fehler wurde behoben
+
+
+## 6.2.0.122
+
+* ### NEU: Faktura ist auch mit cobra 2025 R4 kompatibel.
+  Bitte führen Sie auf jeder Arbeitsstation das Update ClientSetup.64.25R4.msi aus, um den Client zu aktualisieren.
+
+* ### NEU: CAMT-Import unterstützt nur noch ISO-20022-Standard Version 2019
+  Der CAMT-Import unterstützt nur noch ISO-20022-Standard Version 2019, da dies der vorgegebene Standard ab November 2026 ist.
+
+* ### NEU: Buchungstext
+  In den CAMT.054-Einstellungen kann der Buchungstext konfiguriert werden
+ 
+* ### Bugfixes und Diverse
+  
+  .NET Framework Version von 4.7.2 auf 4.8 angehoben
+
+  Es können nur noch CAMT.054 mit Referenznummer importiert werden. 
+  
+## 6.2.0.115
+
+* ### Bugfixes und Diverse
+
+  Der Endlosschleifen Fehler bei eBill wurde behoben
+
+  RaiseNow Excel wird nicht mehr supportet, verwenden Sie hierfür den Faktura Excel/Csv Import. 
+
+  Die Kundenplugins wurden überarbeitet und werden neu mit MEF geladen
+
+  Die Storno und Datenaufbereitung Funktion wurde entfernt. 
+
+  Der IBAN Fehler bei eBill wurde behoben 
+
+  Einzeldruck wurde aus der Sammelrechnung entfernt. Bitte verwenden Sie hierfür die Einzelrechnung 
+  
+  Twingle und Excel Import wurden optimiert
+  
+
+## 6.2.0.107
+
+* ### RaiseNow
+  Die Konfiguration für RaiseNow wurde vollständig überarbeitet und bietet neue, komplexe Möglichkeiten. 
+
+* ### Fundraising DE
+  RaiseNow, Twingle und Excel sind Standalone verfügbar
+
+* ### Bugfixes und Diverse
+
+  eBill Donation wird mit dem heutigen DueDate gesetzt
+
+  SMG wird nicht mehr supportet  
+
+## 6.0.2.102
+
+* ### NEU: eBill Integration
+  Neu unterstützt das Faktura den Versand von Rechnungen als eBill sowie von Spendenaufrufen als eBill Donation.
+
+* ### Bugfixes und Diverse
+  Camt.054: neue Logik für Dublettenerkennung für Camt.053
+  
+  Camt.054: Neu wird die strukturierte Message importiert
+  
+  Camt.053 Plugin: Adressgenerierung nur für Positive Beträge
+  
 ## 6.0.1.107
 
 * ### NEU: Twingle API (Fundraising)
-  Neu können Spenden via. Twingle API Konfiguriert und Importiert werden.
+  Neu können Spenden via Twingle API konfiguriert und importiert werden.
 
 * ### NEU: Excel und CSV Import (Fundraising)
-  Neu können Spenden via. Excel und CSV Konfiguriert und Importiert werden. 
+  Neu können Spenden via Excel und CSV konfiguriert und importiert werden. 
 
 * ### NEU: Neuer Client-Setup für cobra 25.2 oder neuer
   Für cobra 25.2 oder neuer verwenden Sie das neue `Cobra.Faktura.ClientSetup.64.v2.msi`. Zudem wurde das Installer Bild überarbeitet. 
@@ -37,7 +107,7 @@
 
   Der Referenznummer Bug mit Adressfeldern wurde behoben. 
 
-  Performmance Optimierung.
+  Performance Optimierung.
 
   Die ProgressBar wurde optimiert.
 
@@ -96,7 +166,7 @@
 
   Die Rechnungsnummer kann wieder konfiguriert werden.
 
-  Der UserManagement Bug bei Neuinstalationen wurde behoben. 
+  Der UserManagement Bug bei Neuinstallationen wurde behoben. 
 
   Der Auswahldruck wird abgekündigt und ist kein Pflichtfeld mehr. 
 
@@ -107,14 +177,14 @@
 
 * ### Bugfixes und Diverse
  
-  Der Bug mit Öffentlichen Gruppenkontakte wurde behoben.  
+  Der Bug mit öffentlichen Gruppenkontakten wurde behoben.  
 
 
 ## 6.0.0.4
 
 * ### Bugfixes und Diverse
 
-  Die Faktura Fenster wurden Optisch überarbeitet.  
+  Die Faktura Fenster wurden optisch überarbeitet.  
 
 
 ## 6.0.0.3
@@ -123,25 +193,25 @@
 
   Der Bug bei der Zuweisung der Benutzerlizenz wurde behoben.
 
-  Die Faktura Fenster wurden Optisch überarbeitet.  
+  Die Faktura Fenster wurden optisch überarbeitet.  
 
 
 ## 6.0.0.2
 
 * ### NEU: RaiseNow Excel
-  Neu kann RaiseNow auch als Excel Importiert werden. 
+  Neu kann RaiseNow auch als Excel importiert werden. 
 
 * ### Bugfixes und Diverse
 
   Der MessageBox Bug wurde behoben. 
 
-  Die Faktura Fenster wurden Optisch überarbeitet. 
+  Die Faktura Fenster wurden optisch überarbeitet. 
 
 
 ## 6.0.0.0
 
 * ### NEU: RaiseNow API  
-  Neu kann RaiseNow via. API Importiert werden. 
+  Neu kann RaiseNow via API importiert werden. 
 
 * ### NEU: Neue Platzhalter  
   Neu sind die Platzhalter `CurUserName` und `CurUserShortName` verfügbar.
