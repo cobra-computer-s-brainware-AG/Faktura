@@ -31,15 +31,15 @@
 
   Der Endlosschleifen Fehler bei eBill wurde behoben
 
-  RaiseNow Excel wird nicht mehr Supportet, verwenden Sie hierfür den Faktura Excel/Csv Import. 
+  RaiseNow Excel wird nicht mehr supportet, verwenden Sie hierfür den Faktura Excel/Csv Import. 
 
-  Die Kundenplugin wurden überarbeitet und werden neu mit MEF geladen
+  Die Kundenplugins wurden überarbeitet und werden neu mit MEF geladen
 
   Die Storno und Datenaufbereitung Funktion wurde entfernt. 
 
   Der IBAN Fehler bei eBill wurde behoben 
 
-  Einzeldruck wurde aus der Sammelrechnung entfernt, bitte verwenden Sie hierfür Einzelrechnung 
+  Einzeldruck wurde aus der Sammelrechnung entfernt. Bitte verwenden Sie hierfür die Einzelrechnung 
   
   Twingle und Excel Import wurden optimiert
   
@@ -47,7 +47,7 @@
 ## 6.2.0.107
 
 * ### RaiseNow
-  Die Konfiguration für RaiseNow wurde vollständig überarbeitet und bietet  neue, komplexe Möglichkeiten. 
+  Die Konfiguration für RaiseNow wurde vollständig überarbeitet und bietet neue, komplexe Möglichkeiten. 
 
 * ### Fundraising DE
   RaiseNow, Twingle und Excel sind Standalone verfügbar
@@ -56,7 +56,7 @@
 
   eBill Donation wird mit dem heutigen DueDate gesetzt
 
-  SMG wird nicht mehr Supportet  
+  SMG wird nicht mehr supportet  
 
 ## 6.0.2.102
 
@@ -73,10 +73,10 @@
 ## 6.0.1.107
 
 * ### NEU: Twingle API (Fundraising)
-  Neu können Spenden via. Twingle API Konfiguriert und Importiert werden.
+  Neu können Spenden via Twingle API konfiguriert und importiert werden.
 
 * ### NEU: Excel und CSV Import (Fundraising)
-  Neu können Spenden via. Excel und CSV Konfiguriert und Importiert werden. 
+  Neu können Spenden via Excel und CSV konfiguriert und importiert werden. 
 
 * ### NEU: Neuer Client-Setup für cobra 25.2 oder neuer
   Für cobra 25.2 oder neuer verwenden Sie das neue `Cobra.Faktura.ClientSetup.64.v2.msi`. Zudem wurde das Installer Bild überarbeitet. 
@@ -103,7 +103,7 @@
 
   Der Referenznummer Bug mit Adressfeldern wurde behoben. 
 
-  Performmance Optimierung.
+  Performance Optimierung.
 
   Die ProgressBar wurde optimiert.
 
@@ -162,7 +162,7 @@
 
   Die Rechnungsnummer kann wieder konfiguriert werden.
 
-  Der UserManagement Bug bei Neuinstalationen wurde behoben. 
+  Der UserManagement Bug bei Neuinstallationen wurde behoben. 
 
   Der Auswahldruck wird abgekündigt und ist kein Pflichtfeld mehr. 
 
@@ -173,14 +173,14 @@
 
 * ### Bugfixes und Diverse
  
-  Der Bug mit Öffentlichen Gruppenkontakte wurde behoben.  
+  Der Bug mit öffentlichen Gruppenkontakten wurde behoben.  
 
 
 ## 6.0.0.4
 
 * ### Bugfixes und Diverse
 
-  Die Faktura Fenster wurden Optisch überarbeitet.  
+  Die Faktura Fenster wurden optisch überarbeitet.  
 
 
 ## 6.0.0.3
@@ -189,25 +189,25 @@
 
   Der Bug bei der Zuweisung der Benutzerlizenz wurde behoben.
 
-  Die Faktura Fenster wurden Optisch überarbeitet.  
+  Die Faktura Fenster wurden optisch überarbeitet.  
 
 
 ## 6.0.0.2
 
 * ### NEU: RaiseNow Excel
-  Neu kann RaiseNow auch als Excel Importiert werden. 
+  Neu kann RaiseNow auch als Excel importiert werden. 
 
 * ### Bugfixes und Diverse
 
   Der MessageBox Bug wurde behoben. 
 
-  Die Faktura Fenster wurden Optisch überarbeitet. 
+  Die Faktura Fenster wurden optisch überarbeitet. 
 
 
 ## 6.0.0.0
 
 * ### NEU: RaiseNow API  
-  Neu kann RaiseNow via. API Importiert werden. 
+  Neu kann RaiseNow via API importiert werden. 
 
 * ### NEU: Neue Platzhalter  
   Neu sind die Platzhalter `CurUserName` und `CurUserShortName` verfügbar.
