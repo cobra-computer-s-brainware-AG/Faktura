@@ -1,7 +1,7 @@
 # Release Notes | Faktura
 
 > [!NOTE]
-> Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/raw/refs/heads/master/Current/Cobra.Faktura.Installer.6302.zip) heruntergeladen werden.
+> Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/releases) heruntergeladen werden.
 
 ## 6.3.0.3
 
