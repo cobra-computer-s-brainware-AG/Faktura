@@ -3,13 +3,19 @@
 > [!NOTE]
 > Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/raw/refs/heads/master/Current/Cobra.Faktura.Installer.6302.zip) heruntergeladen werden.
 
+## 6.3.0.3
+
+* ### Bugfixes und Diverse
+
+  Der Fehler beim CSV-Worksheet-Namen wurde behoben.
+  
 ## 6.3.0.2
 
 * ### NEU: Faktura ist auch mit cobra Classic 2026 R1 kompatibel.
 
 * ### Bugfixes und Diverse
 
-  Der RaiseNow Customparameter und Transaction Gebühr Fehler wurde behoben
+  Der RaiseNow Customparameter und Transaction Gebühr Fehler wurde behoben.
 
 
 ## 6.2.0.122
