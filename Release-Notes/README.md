@@ -3,6 +3,14 @@
 > [!NOTE]
 > Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/releases) heruntergeladen werden.
 
+## 6.3.0.4
+
+* ### NEU: Hausnummer und Land
+  Neu können in den Einstellungen die Hausnummer und das Land konfiguriert werden.
+
+* ### NEU: eBill Status
+  Neu wird der eBill-Status beim cobra-Start synchronisiert. 
+
 ## 6.3.0.3
 
 * ### Bugfixes und Diverse
