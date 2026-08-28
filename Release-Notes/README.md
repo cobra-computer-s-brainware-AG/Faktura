@@ -3,6 +3,12 @@
 > [!NOTE]
 > Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/releases) heruntergeladen werden.
 
+## 6.3.0.5
+
+* ### Bugfixes und Diverse
+
+  Der Fehler bei mehrzeiligen, unstrukturierten CAMT-Mitteilungen wurde behoben. [CH-128]
+
 ## 6.3.0.4
 
 * ### NEU: Hausnummer und Land
