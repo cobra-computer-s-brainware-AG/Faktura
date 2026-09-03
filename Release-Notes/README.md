@@ -3,6 +3,12 @@
 > [!NOTE]
 > Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/releases) heruntergeladen werden.
 
+## 6.3.0.6
+
+* ### Bugfixes und Diverse
+
+  Der Datumsfehler in der Fundraising-Excel-Datei wurde behoben. [CH-134]
+
 ## 6.3.0.5
 
 * ### Bugfixes und Diverse
