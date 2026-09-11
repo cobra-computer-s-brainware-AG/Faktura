@@ -3,11 +3,23 @@
 > [!NOTE]
 > Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/releases) heruntergeladen werden.
 
+## 6.3.0.7
+
+* ### Bugfixes und Diverse
+
+  Der Fehler beim eBill-Adressabgleich wurde behoben: Ungültige E-Mail-Adressen werden vor der API-Anfrage herausgefiltert. #CH-144
+
+## 6.3.0.6
+
+* ### Bugfixes und Diverse
+
+  Der Datumsfehler in der Fundraising-Excel-Datei wurde behoben. #CH-134
+
 ## 6.3.0.5
 
 * ### Bugfixes und Diverse
 
-  Der Fehler bei mehrzeiligen, unstrukturierten CAMT-Mitteilungen wurde behoben. [CH-128]
+  Der Fehler bei mehrzeiligen, unstrukturierten CAMT-Mitteilungen wurde behoben. #CH-128
 
 ## 6.3.0.4
 
