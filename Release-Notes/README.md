@@ -3,6 +3,12 @@
 > [!NOTE]
 > Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/releases) heruntergeladen werden.
 
+## 6.3.0.8
+
+* ### Bugfixes und Diverse
+
+  Neue eBill-Subscriptions erhalten automatisch ein Stichwort, damit sie in cobra gefiltert werden können.. 
+
 ## 6.3.0.7
 
 * ### Bugfixes und Diverse
