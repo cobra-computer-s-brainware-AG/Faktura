@@ -3,11 +3,15 @@
 > [!NOTE]
 > Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/releases) heruntergeladen werden.
 
-## 6.3.0.8
+## 6.3.0.9
 
 * ### Bugfixes und Diverse
 
-  Neue eBill-Subscriptions erhalten automatisch ein Stichwort, damit sie in cobra gefiltert werden können.. 
+  Neue eBill-Subscriptions erhalten automatisch ein Stichwort, damit sie in cobra gefiltert werden können.
+
+  Der Fehler, dass eBill in einer Endlosschleife hängen blieb, wurde behoben.
+
+  Tritt beim beim Ablegen von eBill im DMS ein Fehler auf, wird der Vorgang fortgesetzt, damit die Rechnung nicht mehrfach versendet wird.
 
 ## 6.3.0.7
 
