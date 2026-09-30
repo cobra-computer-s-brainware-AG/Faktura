@@ -3,6 +3,12 @@
 > [!NOTE]
 > Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/releases) heruntergeladen werden.
 
+## 6.3.0.91
+
+* ### Bugfixes und Diverse
+
+  Der Fehler beim RaiseNow-Import bei fehlender Gebühr wurde behoben.
+
 ## 6.3.0.9
 
 * ### Bugfixes und Diverse
