@@ -3,6 +3,12 @@
 > [!NOTE]
 > Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/releases) heruntergeladen werden.
 
+## 6.3.0.92
+
+* ### Bugfixes und Diverse
+
+  CAMT-Dateien im alten Format (camt.054.001.04) werden noch bis zum 30.11.2026 unterstützt. Ab dem 14.11.2026 erscheint beim Import ein Hinweis, dass ab dem 01.12.2026 ausschliesslich das neue ISO-20022-Format (camt.054.001.08) unterstützt wird.
+
 ## 6.3.0.91
 
 * ### Bugfixes und Diverse
