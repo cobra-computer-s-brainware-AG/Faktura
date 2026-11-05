@@ -3,6 +3,12 @@
 > [!NOTE]
 > Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/releases) heruntergeladen werden.
 
+## 6.3.0.93
+
+* ### Bugfixes und Diverse
+
+  Der Fehler beim CAMT-Import von DD-Lastschriften ohne Referenznummer wurde behoben. Diese Zahlungen werden neu wieder importiert und über die EndToEndId zugeordnet.
+
 ## 6.3.0.92
 
 * ### Bugfixes und Diverse
