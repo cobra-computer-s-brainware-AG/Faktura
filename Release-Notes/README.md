@@ -3,6 +3,34 @@
 > [!NOTE]
 > Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/releases) heruntergeladen werden.
 
+## 6.3.0.93
+
+* ### Bugfixes und Diverse
+
+  Der Fehler beim CAMT-Import von DD-Lastschriften ohne Referenznummer wurde behoben. Diese Zahlungen werden neu wieder importiert und über die EndToEndId zugeordnet.
+
+## 6.3.0.92
+
+* ### Bugfixes und Diverse
+
+  CAMT-Dateien im alten Format (camt.054.001.04) werden noch bis zum 30.11.2026 unterstützt. Ab dem 14.11.2026 erscheint beim Import ein Hinweis, dass ab dem 01.12.2026 ausschliesslich das neue ISO-20022-Format (camt.054.001.08) unterstützt wird.
+
+## 6.3.0.91
+
+* ### Bugfixes und Diverse
+
+  Der Fehler beim RaiseNow-Import bei fehlender Gebühr wurde behoben.
+
+## 6.3.0.9
+
+* ### Bugfixes und Diverse
+
+  Neue eBill-Subscriptions erhalten automatisch ein Stichwort, damit sie in cobra gefiltert werden können.
+
+  Der Fehler, dass eBill in einer Endlosschleife hängen blieb, wurde behoben.
+
+  Tritt beim beim Ablegen von eBill im DMS ein Fehler auf, wird der Vorgang fortgesetzt, damit die Rechnung nicht mehrfach versendet wird.
+
 ## 6.3.0.7
 
 * ### Bugfixes und Diverse
