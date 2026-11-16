@@ -3,39 +3,29 @@
 > [!NOTE]
 > Die Aktuelle Version kann [hier](https://github.com/cobra-computer-s-brainware-AG/Faktura/releases) heruntergeladen werden.
 
-## 6.4.0.0
+## 6.4.0.0 (Loader ab 6.2.0.0)
 
 > [!IMPORTANT]
-> Beim ersten Start wird die Faktura-Konfiguration automatisch auf das neue Speicherformat umgestellt.
-> Erstellen Sie vor dem Update eine Sicherung der cobra-Datenbank.
-> Nach der Umstellung kann die Datenbank nicht mehr mit einer älteren Faktura-Version verwendet werden.
+> - Beim ersten Start wird die Faktura-Konfiguration automatisch auf das neue Speicherformat umgestellt.
+> - Erstellen Sie vor dem Update eine Sicherung der cobra-Datenbank.
+> - Nach der Umstellung kann die Datenbank nicht mehr mit einer älteren Faktura-Version verwendet werden.
 
-* ### NEU: Konfiguration
-  Die Konfiguration der Formate wurde vollständig überarbeitet. Dokument, Zahlungsteil und Zusatz sind übersichtlich aufgeteilt, Vorlagen werden direkt geprüft und pro Format können Berechtigungen vergeben werden.
-  Formate können neu als Backup exportiert werden.
-
-* ### NEU: Aktivierung und Benutzerverwaltung
-  Neuer Dialog für die Produktaktivierung und die Verwaltung der lizenzierten Benutzer.
+* ### NEU: Neue Fenster für Konfiguration und Aktivierung
+  Die Konfiguration der Formate wurde vollständig überarbeitet: Dokument, Zahlungsteil und Zusatz sind übersichtlich aufgeteilt, Vorlagen werden direkt geprüft, pro Format können Berechtigungen vergeben werden und Formate lassen sich als Backup exportieren. Auch die Produktaktivierung und die Verwaltung der lizenzierten Benutzer erfolgen neu in einem eigenen Fenster.
 
 * ### NEU: Produkt-Info
-  Unter «Mehr > Info» werden die Faktura-Version und die Systemdaten angezeigt und können für den Support gespeichert werden.
+Unter `Mehr > Info` werden die Faktura-Version und die Systemdaten angezeigt und können für den Support gespeichert werden.
 
 * ### NEU: Bessere Performance
-  Die Konfiguration eines Formats wird neu in einem einzigen Datensatz gespeichert statt in vielen einzelnen Werten. Zusammen mit weiteren Optimierungen benötigt eine Rechnung deutlich weniger Datenbankzugriffe, und pro Aktion wird keine neue Datenbankverbindung mehr aufgebaut. Das macht sich besonders bei Verbindungen über VPN oder Remote bemerkbar.
-
-  Die benötigten Programmbibliotheken werden beim Start von cobra im Hintergrund geladen. Dadurch öffnen sich die Faktura-Fenster beim ersten Aufruf schneller.
-
-* ### NEU: Neues Erscheinungsbild
-  Neue Symbole im Faktura-Menü. Die Menüpunkte heissen neu «Serienrechnung», «CAMT.054 Import» und «RaiseNow».
+ Faktura wurde für mehr Geschwindigkeit optimiert. Einstellungen werden effizienter gespeichert und Daten seltener abgefragt. Das macht sich vor allem bemerkbar, wenn Sie über VPN oder Remote mit cobra arbeiten. Zudem öffnen sich die Faktura-Fenster beim ersten Aufruf schneller.
+ 
+* ### NEU: Neue Symbole für cobra 2026
+  Passend zum neuen Design von cobra 2026 erhält das Faktura-Menü neue, moderne Symbole. Die Menüpunkte heissen neu `Serienrechnung`, `CAMT.054 Import` und `RaiseNow`.
 
 * ### Bugfixes und Diverse
-
-  Enthält alle Korrekturen bis Version 6.3.0.93.
-
+ 
   Die Kundenplugins BESRPlugIn und PlugInCAMT.053 werden nicht mehr unterstützt. Ist eines davon installiert, erscheint beim Start ein Hinweis.
-
-  Der Fehler «MEF Fehler / STA-Thread» beim Start von cobra in einzelnen Umgebungen wurde behoben.
-
+ 
   Ein Update des ClientSetup ist nicht nötig. Voraussetzung ist der Cobra.Faktura.Loader ab Version 6.2.0.0.
 
 ## 6.3.0.93
