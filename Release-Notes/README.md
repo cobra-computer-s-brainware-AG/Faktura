@@ -6,12 +6,13 @@
 ## 6.4.0.0 (Loader ab 6.2.0.0)
 
 > [!IMPORTANT]
-> - Beim ersten Start wird die Faktura-Konfiguration automatisch auf das neue Speicherformat umgestellt.
-> - Erstellen Sie vor dem Update eine Sicherung der cobra-Datenbank.
+> - Bitte notieren Sie vor dem Update die aktuelle Faktura-Version.
+> - Erstellen Sie vor dem Update ein Backup der cobra-Datenbank.
+> - Beim ersten Start wird die Faktura-Konfiguration automatisch auf das neue Speicherformat umgestellt. Vorher wird eine Sicherung der Einstellungen als `SettingBackup-<Datum>.sql` im Ordner `Schnittstellen\Faktura` erstellt.
 > - Nach der Umstellung kann die Datenbank nicht mehr mit einer älteren Faktura-Version verwendet werden.
 
 * ### NEU: Neue Fenster für Konfiguration und Aktivierung
-  Die Konfiguration der Formate wurde vollständig überarbeitet: Dokument, Zahlungsteil und Zusatz sind übersichtlich aufgeteilt, Vorlagen werden direkt geprüft, pro Format können Berechtigungen vergeben werden und Formate lassen sich als Backup exportieren. Auch die Produktaktivierung und die Verwaltung der lizenzierten Benutzer erfolgen neu in einem eigenen Fenster.
+  Die Konfiguration der Formate wurde vollständig überarbeitet: Dokument, Zahlungsteil und Zusatz sind übersichtlich aufgeteilt, Vorlagen werden direkt geprüft und pro Format können Berechtigungen vergeben werden. Auch die Produktaktivierung und die Verwaltung der lizenzierten Benutzer erfolgen neu in einem eigenen Fenster.
 
 * ### NEU: Produkt-Info
   Unter `Mehr > Info` werden die Faktura-Version und die Systemdaten angezeigt und können für den Support gespeichert werden.
