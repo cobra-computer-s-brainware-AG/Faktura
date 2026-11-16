@@ -14,10 +14,10 @@
   Die Konfiguration der Formate wurde vollständig überarbeitet: Dokument, Zahlungsteil und Zusatz sind übersichtlich aufgeteilt, Vorlagen werden direkt geprüft, pro Format können Berechtigungen vergeben werden und Formate lassen sich als Backup exportieren. Auch die Produktaktivierung und die Verwaltung der lizenzierten Benutzer erfolgen neu in einem eigenen Fenster.
 
 * ### NEU: Produkt-Info
-Unter `Mehr > Info` werden die Faktura-Version und die Systemdaten angezeigt und können für den Support gespeichert werden.
+  Unter `Mehr > Info` werden die Faktura-Version und die Systemdaten angezeigt und können für den Support gespeichert werden.
 
 * ### NEU: Bessere Performance
- Faktura wurde für mehr Geschwindigkeit optimiert. Einstellungen werden effizienter gespeichert und Daten seltener abgefragt. Das macht sich vor allem bemerkbar, wenn Sie über VPN oder Remote mit cobra arbeiten. Zudem öffnen sich die Faktura-Fenster beim ersten Aufruf schneller.
+  Faktura wurde für mehr Geschwindigkeit optimiert. Einstellungen werden effizienter gespeichert und Daten seltener abgefragt. Das macht sich vor allem bemerkbar, wenn Sie über VPN oder Remote mit cobra arbeiten. Zudem öffnen sich die Faktura-Fenster beim ersten Aufruf schneller.
  
 * ### NEU: Neue Symbole für cobra 2026
   Passend zum neuen Design von cobra 2026 erhält das Faktura-Menü neue, moderne Symbole. Die Menüpunkte heissen neu `Serienrechnung`, `CAMT.054 Import` und `RaiseNow`.
@@ -26,7 +26,6 @@ Unter `Mehr > Info` werden die Faktura-Version und die Systemdaten angezeigt und
  
   Die Kundenplugins BESRPlugIn und PlugInCAMT.053 werden nicht mehr unterstützt. Ist eines davon installiert, erscheint beim Start ein Hinweis.
  
-  Ein Update des ClientSetup ist nicht nötig. Voraussetzung ist der Cobra.Faktura.Loader ab Version 6.2.0.0.
 
 ## 6.3.0.93
 
